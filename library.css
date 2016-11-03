@@ -1,0 +1,76 @@
+header {
+    width:940px;
+    padding:5px;
+    margin:0 auto 1px auto;
+}
+
+table, th, td {
+    border: 2px solid black !important;
+    border-collapse: collapse;
+    word-wrap:break-word;
+	}
+	
+th, td {
+    padding: 3px;
+    text-align: center;
+	}
+	
+p {
+    padding:0;
+    margin:0 0 20px 0;
+}
+
+h1 {
+    font-size:35px;
+}
+h2 {
+    font-size:1.4em;
+}
+
+body {
+    background:#CEECF5;
+    font-size:18px;
+}
+#container, footer {
+    background:#fff;
+    width:920px;
+    margin:0 auto;
+    padding:20px;
+}
+
+#container {
+    min-height:500px;
+}
+.borrower h2 {
+    margin:0 0 10px 0;
+    padding:0 5px;
+    font-weight:normal;
+    border-bottom:1px solid #ddd;
+}
+
+aside {
+    width:260px;
+    float:right;
+    border:1px dashed #aaa;
+    color:grey;
+
+    padding:5px;
+}
+ 
+footer {
+    border-top:1px dashed #aaa;
+    color:#BDBDBD;
+    font-size: 15px;
+    width: auto;
+}
+
+#info {
+	width:920px;
+	height: 480px;
+}
+
+
+	
+form, button { 
+	display: inline; 
+	}

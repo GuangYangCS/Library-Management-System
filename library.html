@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="library.css">
+</head>
+<body>
+    <header>
+        <div class="header"><h1>Library Management System</h1></div>
+    </header>
+    <div id="container">
+        <aside>
+            <div class="borrower">
+                <h2>Register</h2>
+                <div class="inner">
+                    <form action="library_user.php" method="post">
+					FirstName: <input type="text" name="fname"><br>
+					LastName: <input type="text" name="lname"><br>
+					Address :<input type="text" name="address"><br>
+					Phone  :<input type="text" name="phone"><br>
+					<input type="submit">  
+					</form>
+                    	
+                </div>
+            </div>
+        </aside>
+		<div id="info">
+        <form action="library.php" method="post">
+			<h2>Book Search</h2>
+			Book_ID <input name="Book_id" type="text" placeholder="ex. 10 digit ISBN">
+        	Title <input name="Title" type="text" placeholder="ex. Harry Potter ">
+        	Author <input name="Author" type="text" placeholder="ex. J.K. Rowling">
+    		<input type="submit">
+		</form>
+		
+		 <form action="library_checkin.php" method="post">
+			<h3>Book Check In</h3>
+			Book_ID <input name="Book_id2" type="text" placeholder="ex. 10 digit ISBN">
+        	Card_no <input name="Card_no2" type="text" placeholder="ex. 999 ">
+        	Name <input name="Student_name2" type="text" placeholder="ex.Tony">
+    		<input type="submit">
+		</form>
+		
+		<form action="library_loansRefresh.php" method="post">
+			<button type="submit" style="height:25px; width:60px; color:black;">Refresh</button>	
+		</form>
+		
+		
+		<form action="library_pay.php" method="post">
+			<h3>Pay Fees </h3>
+        	Card_no <input name="Card_no3" type="text" placeholder="ex. 999 ">
+
+    		<input type="submit">
+		</form>
+		
+						
+    </div>
+    <footer>
+        Guang Yang UTD ID:gxy141230, Prof.Chris Davis Fall 2015
+    </footer>
+</body>
+</html>
